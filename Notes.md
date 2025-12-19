@@ -9,7 +9,7 @@ chmod +x setup-speedtest-compose.sh
 2) Notes & important details
 
 **Domain & DNS:** For automatic HTTPS you must set DOMAIN to a publicly routable hostname that points (A record) to the server IP before running the script (or set and re-run later). Example:
-(DOMAIN=speed.example.com ./setup-speedtest-compose.sh)
+[(DOMAIN=speed.example.com ./setup-speedtest-compose.sh)]
 Caddy will request Let's Encrypt certs automatically and serve https://speed.example.com/simple-speedtest.html.
 **If DOMAIN** is not set: The script still brings up Caddy and speedtest. You can open the page via http://server-ip/simple-speedtest.html. Caddy will serve HTTP for convenience.
 **Ports:** The script maps ports 80 and 443 to the host for Caddy. Make sure these are reachable from the internet for Let's Encrypt (incoming 80/443).
