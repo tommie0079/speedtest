@@ -1,6 +1,4 @@
-Create a file called setup-speedtest-compose.sh, paste the following content into it, make it executable and run it:
 
-```
 #!/usr/bin/env bash
 set -euo pipefail
 
@@ -348,4 +346,4 @@ echo
 echo "To stop: (from inside this folder) docker compose down"
 echo "To view logs: docker compose logs -f caddy"
 
-```
+
