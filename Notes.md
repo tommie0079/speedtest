@@ -19,3 +19,6 @@ TESTFILE_SIZE_MB=400 ./setup-speedtest-compose.sh
 **Reverse proxy:** Caddy proxies requests to the speedtest service (internal Docker network), so the Node server only listens on container port 8000.
 **Stopping:** From the created folder run docker compose down (or docker-compose down) to remove containers.
 **Rebuild after changes:** If you edit the HTML or server, run docker compose build --no-cache then docker compose up -d.
+
+
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
