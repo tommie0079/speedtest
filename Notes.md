@@ -22,3 +22,7 @@ TESTFILE_SIZE_MB=400 ./setup-speedtest-compose.sh
 
 
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+
+<a name="my-custom-anchor-point"></a>
+Some text I want to provide a direct link to, but which doesn't have its own heading.
